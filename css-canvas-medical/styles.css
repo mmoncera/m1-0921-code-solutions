@@ -1,0 +1,231 @@
+html {
+  font-family: Avenir, sans-serif;
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.mt-3rem {
+  margin-top: 3rem;
+}
+
+.mb-3rem {
+  margin-bottom: 3rem;
+}
+
+header {
+  border-bottom: 2px solid rgb(211, 211, 211, 0.3);
+  padding: 1rem 5%;
+}
+
+.logo-blue,
+.logo-white {
+  max-width: 180px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #747769;
+}
+
+nav button {
+  border-color: transparent;
+  background-color: #023e8a;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+nav button a {
+  font-size: 20px;
+}
+
+.nav-item:last-child {
+  color: white;
+  margin-right: 0;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero {
+  max-width: 100%;
+  filter: brightness(75%);
+}
+
+.hero-container h1 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-family: 'Tiempos Headline', Times, serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+.hero-container p {
+  position: absolute;
+  max-width: 43%;
+  top: 38%;
+  left: 5%;
+  color: white;
+  line-height: 2rem;
+}
+
+.hero-container button {
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  width: 15%;
+  line-height: 2rem;
+  border-color: transparent;
+  background-color: #022c64;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.hero-container button a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.location-container {
+  height: 600px;
+  background-color: rgb(211, 211, 211, 0.15);
+  color: #747769;
+}
+
+.location-container h1 {
+  width: 100%;
+  font-family: 'Tiempos Headline', Times, serif;
+  align-self: flex-end;
+}
+
+.location-container p {
+  margin-top: 0;
+  line-height: 1.5rem;
+  font-weight: bolder;
+}
+
+.locations {
+  margin-bottom: 3.5rem;
+  line-height: 2rem;
+}
+
+.learn-more-container {
+  margin-bottom: 2.5rem;
+  padding: 0 5%;
+  color: #747769;
+}
+
+.learn-more-container h1 {
+  width: 100%;
+  font-family: 'Tiempos Headline', Times, serif;
+}
+
+.learn-more-container button {
+  width: 100%;
+  line-height: 2rem;
+  border-color: transparent;
+  background-color: #022c64;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.learn-more-container button a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.learn-more-container p {
+  margin-top: 0.25rem;
+  font-weight: bolder;
+}
+
+.company-container {
+  background-color: #565554;
+  padding: 5%;
+  color: white;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
+.contact-info {
+  margin-top: 3rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  font-weight: bolder;
+}
+
+.company,
+.product {
+  width: 100%;
+}
+
+.company h3 a,
+.product h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container {
+  background-color: rgb(211, 211, 211, 0.15);
+  padding: 2% 5%;
+}
+
+.footer-container h4 {
+  margin-right: 5%;
+}
+
+.footer-container h4 a {
+  color: #747769;
+  text-decoration: none;
+  font-weight: bold;
+}
