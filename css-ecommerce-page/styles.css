@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-20 {
+  max-width: 20%;
+}
+
+.col-100 {
+  max-width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.products {
+  margin-inline: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.products__pic {
+  width: auto;
+  height: 20rem;
+}
+
+.products__brand {
+  padding-right: 0.2rem;
+}
+
+.products__size {
+  color: #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  padding-left: 0.2rem;
+}
+
+.products__sales-price {
+  background-color: #fef0e6;
+  border-radius: 15%;
+  padding: 0.1rem;
+}
+
+.products__retail-price {
+  color: #dfdfdf;
+}
