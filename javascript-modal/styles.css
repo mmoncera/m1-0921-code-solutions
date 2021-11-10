@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font-size: 2.25rem;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 1px grey;
+  padding: 0.25rem 2rem;
+  cursor: pointer;
+}
+
+.button-open {
+  background-color: #4b4ae9;
+  margin: 1rem;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  background-color: white;
+  width: 38rem;
+  height: 19rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20rem auto;
+  padding: 3rem;
+}
+
+.question {
+  font-size: 2rem;
+}
+
+.button-close {
+  background-color: #ec5e5d;
+  margin: 2.5rem auto;
+}
