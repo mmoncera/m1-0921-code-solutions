@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fef9f1;
+}
+
+.switch {
+  width: 300px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #f9ea83;
+  border-color: transparent;
+  margin: 300px auto;
+}
+
+.body-off {
+  background-color: #111;
+}
+
+.light-bulb-off {
+  background-color: #252525;
+}
